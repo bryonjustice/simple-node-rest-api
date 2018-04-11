@@ -1,0 +1,25 @@
+{
+  "name": "simple-node-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start-dev": "nodemon --inspect ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryonjustice/simple-node-rest-api.git"
+  },
+  "author": "bryon justice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryonjustice/simple-node-rest-api/issues"
+  },
+  "homepage": "https://github.com/bryonjustice/simple-node-rest-api#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14"
+  }
+}
